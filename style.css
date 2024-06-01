@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(254, 254, 254, 0.511);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 11px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(87, 172, 188);
+}
+
+button:hover{
+    background-color: rgba(87, 171, 188, 0.552);
+}
+
+#post-container {
+    margin-top: 30px;
+}
+
+.post{
+    border-bottom: 1px solid black;
+}
+
